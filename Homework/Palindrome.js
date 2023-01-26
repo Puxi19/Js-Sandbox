@@ -1,8 +1,7 @@
-let word = 'anna'
-let backwards = word.split("").reverse().join("");
-if (backwards==word) {
-    console.log('This word is a Palidrome')
-    }
-else {
-    console.log('This word is not a Palidrome')
+let word = "john";
+let reverse = word.split("").reverse().join("");
+if (reverse == word) {
+  console.log("Palidrome");
+} else {
+  console.log("Not a Palidrome");
 }
